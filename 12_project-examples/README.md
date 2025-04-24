@@ -76,5 +76,3 @@ You're now ready to:
 - Work on real-world projects and move into CSS & JS!
 
 ---
-
-🔜 Next Suggested Track: [CSS Guide →](../css-guide/)
