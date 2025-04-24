@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <!-- Contact Form Header -->
+    <header>
+      <h1>Contact Us</h1>
+      <p>
+        We'd love to hear from you. Fill out the form below to get in touch!
+      </p>
+    </header>
+
+    <!-- Contact Form -->
+    <section>
+      <form action="#" method="post">
+        <!-- Full Name -->
+        <label for="name">Full Name:</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          placeholder="Enter your full name"
+        /><br /><br />
+
+        <!-- Email -->
+        <label for="email">Email Address:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="example@domain.com"
+        /><br /><br />
+
+        <!-- Subject -->
+        <label for="subject">Subject:</label><br />
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          placeholder="What's this about?"
+        /><br /><br />
+
+        <!-- Message -->
+        <label for="message">Message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="6"
+          required
+          placeholder="Write your message here..."
+        ></textarea
+        ><br /><br />
+
+        <!-- Submit Button -->
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Contact Info (Alternative) -->
+    <footer>
+      <p>
+        Or reach out to us directly at:
+        <a href="mailto:support@example.com">support@example.com</a>
+      </p>
+      <p>&copy; 2025 Complete HTML Guide</p>
+    </footer>
+  </body>
+</html>

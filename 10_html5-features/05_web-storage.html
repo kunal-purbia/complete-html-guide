@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Storage</title>
+</head>
+<body>
+
+  <h2>Local Storage Demo</h2>
+  <input type="text" id="dataInput" placeholder="Type something...">
+  <button onclick="saveData()">Save</button>
+  <button onclick="loadData()">Load</button>
+
+  <p id="output"></p>
+
+  <script>
+    function saveData() {
+      const value = document.getElementById('dataInput').value;
+      localStorage.setItem('myData', value);
+    }
+
+    function loadData() {
+      const saved = localStorage.getItem('myData');
+      document.getElementById('output').textContent = saved ? saved : "No data found!";
+    }
+  </script>
+
+</body>
+</html>
